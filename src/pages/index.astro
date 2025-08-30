@@ -16,6 +16,9 @@ import RecentPublications from "../components/RecentPublications.astro";
     <main class="flex flex-col justify-center">
       <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
         <h1 class="text-2xl md:text-5xl w-full">🧑‍🚀 Mayo.Exchange!</h1>
+         <Fragment slot="title">
+     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+    </Fragment>
          <Fragment slot="subtitle">
    <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=0c0c2a&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 410px; width: 100%; border: none"></iframe>
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
@@ -26,9 +29,7 @@ import RecentPublications from "../components/RecentPublications.astro";
           pariatur tenetur quod.
         </p>
       </div>
-     <Fragment slot="title">
-     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
-    </Fragment>
+   
 
    
       </div>
