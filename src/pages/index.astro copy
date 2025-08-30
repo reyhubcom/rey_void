@@ -23,20 +23,18 @@ import RecentPublications from "../components/RecentPublications.astro";
         </p>
       </div>
       <div class="w-full flex flex-col items-center gap-2.5 px-4 lg:px-0 mt-6">
-       <CallToAction
-    actions={[
-     
-    ]}
-  >
-    <Fragment slot="title">
-     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-   <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=0c0c2a&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 410px; width: 100%; border: none"></iframe>
-    <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
-    </Fragment>
-  </CallToAction>
+        <img
+          src="https://images.unsplash.com/photo-1635627408144-6bf36d28fb98"
+          alt="Astronaut"
+        />
+        <p class="italic text-xs text-gray-600 dark:text-neutral-400">
+          Foto de <a
+            href="https://unsplash.com/es/@niklasjonasson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Niklas Jonasson</a
+          > en <a
+            href="https://unsplash.com/es/fotos/un-cuerpo-de-agua-con-arboles-en-el-fondo-j_WW0u2yYAE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
         </p>
       </div>
 	  <RecentPublications />
