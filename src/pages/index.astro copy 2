@@ -13,7 +13,6 @@ import RecentPublications from "../components/RecentPublications.astro";
   </head>
   <body class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300" >
     <Header />
-      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=678722bd9c2b8a0012e6c83d&product=sop' async='async'></script>
     <main class="flex flex-col justify-center">
       <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
         <h1 class="text-2xl md:text-5xl w-full">🧑‍🚀 Mayo.Exchange!</h1>
