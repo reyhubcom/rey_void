@@ -40,7 +40,7 @@ Trusted Since 2017
  
    
       </div>
-	 
+	  <RecentPublications />
 	      </main>
     <Footer />
 
