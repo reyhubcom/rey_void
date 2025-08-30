@@ -25,9 +25,83 @@ const tags =  posts.flatMap(post => post.data.tags).filter((tag, index, self) =>
         <ul class="flex flex-wrap gap-2">
             {tags.map(tag => (
                 <li>
-                    <a href={`/tags/${tag}`} class=" p-1 rounded-md">
-                        #{tag}
-                    </a>
+                    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "COINBASE:BTCUSD",
+      "title": ""
+    },
+    {
+      "proName": "BINANCE:ETHUSDT",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:XRP",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:USDT",
+      "title": ""
+    },
+    {
+      "proName": "BINANCE:BNBUSD",
+      "title": ""
+    },
+    {
+      "proName": "TRADENATION:SOLANA",
+      "title": ""
+    },
+    {
+      "proName": "TRADENATION:TRONUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:ADAUSD",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:AVAX",
+      "title": ""
+    },
+    {
+      "proName": "TVC:DXY",
+      "title": ""
+    }
+  ],
+  "colorTheme": "dark",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "displayMode": "adaptive"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+     
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/crypto-coins-screener/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "en",
+  "width": "100%",
+  "height": 550
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
                 </li>
             ))}
         </ul>
